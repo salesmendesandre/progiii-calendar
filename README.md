@@ -55,8 +55,8 @@ Requisitos: **JDK 21** o superior. La biblioteca no tiene dependencias externas.
 3. Importad las clases donde las uséis (recordad: **solo en el paquete `view`**):
 
    ```java
-   import es.usal.prog3.calendar.ConsoleCalendar;
-   import es.usal.prog3.calendar.EventStyle;
+   import es.usal.progiii.calendar.ConsoleCalendar;
+   import es.usal.progiii.calendar.EventStyle;
    ```
 
 ## Uso básico

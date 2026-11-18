@@ -1,8 +1,8 @@
 import java.time.LocalDate;
 import java.time.YearMonth;
 
-import es.usal.prog3.calendar.ConsoleCalendar;
-import es.usal.prog3.calendar.EventStyle;
+import es.usal.progiii.calendar.ConsoleCalendar;
+import es.usal.progiii.calendar.EventStyle;
 
 /**
  * Proyecto de ejemplo de la biblioteca ConsoleCalendar.
