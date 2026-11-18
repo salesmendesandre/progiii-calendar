@@ -7,6 +7,8 @@ La biblioteca **solo sabe dibujar**: recibe eventos (una fecha, un texto y un es
 cuadrícula. No sabe nada de vuestra aplicación: qué eventos mostrar, cómo filtrarlos, cómo navegar entre
 meses o qué estado tiene cada uno es responsabilidad del programa que la usa.
 
+**Vista mensual** (`imprimirMes`): un símbolo por evento en cada día.
+
 ```
                                 NOVIEMBRE 2026
                          Bancal: todos | Tipo: todos
@@ -28,6 +30,35 @@ meses o qué estado tiene cada uno es responsabilidad del programa que la usa.
 Leyenda: * pendiente   ! atrasado   v completado   # destacado   [n] hoy
 Total: 10 evento(s) - 5 pendiente(s), 3 atrasado(s), 2 completado(s), 0 destacado(s)
 ```
+
+**Vista semanal** (`imprimirSemana`): de lunes a domingo, con el texto de cada evento.
+
+```
+SEMANA DEL 16/11/2026 AL 22/11/2026
+Bancal: todos | Tipo: todos
+------------------------------------------------------------
+LUN 16/11
+    ! RIEGO - Tomate (B1) - Riego de Tomate
+    v SIEMBRA - Rábano (B3) - Siembra de Rábano
+MAR 17/11  <- hoy
+    -
+MIÉ 18/11
+    * RIEGO - Lechuga (B2) - Riego de Lechuga
+JUE 19/11
+    -
+VIE 20/11
+    * RIEGO - Pimiento (B1) - Riego de Pimiento
+SÁB 21/11
+    -
+DOM 22/11
+    * RIEGO - Tomate (B1) - Riego de Tomate
+    # ABONADO - Lechuga (B2) - Abonado de Lechuga
+------------------------------------------------------------
+Leyenda: * pendiente   ! atrasado   v completado   # destacado   [n] hoy
+Total: 6 evento(s) - 3 pendiente(s), 1 atrasado(s), 1 completado(s), 1 destacado(s)
+```
+
+(Ambas salidas en modo ASCII; sin él, se dibujan con bordes Unicode y colores.)
 
 ## Contenido del repositorio
 
