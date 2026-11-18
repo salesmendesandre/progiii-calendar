@@ -148,3 +148,11 @@ usad el modo ASCII con `setModoAscii(true)`.
 
 Si encontráis un error en la biblioteca, comunicadlo al profesorado a través del foro de Studium,
 indicando la versión, el sistema operativo y un ejemplo mínimo que lo reproduzca.
+
+## Autor y licencia
+
+Desarrollado por **André Filipe Sales Mendes** ([andremendes@usal.es](mailto:andremendes@usal.es)),
+Universidad de Salamanca.
+
+Distribuido bajo la licencia [MIT](LICENSE): podéis usar, copiar y modificar la biblioteca libremente,
+manteniendo el aviso de copyright.
